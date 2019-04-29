@@ -16,9 +16,10 @@ jobs:
         provider: script
         skip_cleanup: true
         before_script:
-          - npm install
-          - npm install -g codecov
+          - yarn
+          - yarn global add codecov
         script:
-          - npm run semantic-release
+          - yarn build
+          - yarn semantic-release
       after_success:
-        - npm run codecov
+        - yarn codecov
