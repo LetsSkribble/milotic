@@ -1,0 +1,35 @@
+language: node_js
+
+node_js:
+  - 10
+  - 8
+
+before_install:
+  - travis_retry yarn add react react-native react-native-svg
+
+install:
+  - travis_retry yarn
+
+script:
+  - yarn test --coverage
+
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+
+jobs:
+  include:
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        before_script:
+          - yarn add react react-native react-native-svg
+          - yarn
+          - yarn global add codecov
+        script:
+          - yarn build
+          - yarn semantic-release
+      after_success:
+        - yarn codecov
