@@ -66,11 +66,14 @@
   },
   "directories": {
     "test": "test",
-    "lib": "src/icons"
+    "lib": "dist"
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
