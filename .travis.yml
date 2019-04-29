@@ -4,6 +4,12 @@ node_js:
   - 10
   - 8
 
+install:
+  - travis_retry yarn
+
+script:
+  - yarn test --coverage
+
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
