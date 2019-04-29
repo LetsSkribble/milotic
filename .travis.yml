@@ -21,12 +21,13 @@ jobs:
   include:
     - stage: release
       node_js: lts/*
-      script: skip
+      install:
+        - yarn
+      script:
+        - yarn build
+      after_success:
+        - yarn codecov
       deploy:
         provider: script
         skip_cleanup: true
-        script:
-          - yarn build
-          - npx semantic-release
-      after_success:
-        - yarn codecov
+        script: npx semantic-release
