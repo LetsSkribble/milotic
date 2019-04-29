@@ -27,7 +27,7 @@ jobs:
         before_script:
           - yarn add react react-native react-native-svg
           - yarn
-          - yarn global add codecov
+          - yarn global add codecov semantic-release typescript
         script:
           - yarn build
           - yarn semantic-release
