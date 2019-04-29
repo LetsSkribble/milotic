@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Wifi from "../src/icons/Wifi";
+import { Wifi } from "../src";
 
 import renderer from "react-test-renderer";
 

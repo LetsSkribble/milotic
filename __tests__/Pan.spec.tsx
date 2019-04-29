@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Pan from "../src/icons/Pan";
+import { Pan } from "../src";
 
 import renderer from "react-test-renderer";
 

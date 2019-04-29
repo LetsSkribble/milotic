@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Grid from "../src/icons/Grid";
+import { Grid } from "../src";
 
 import renderer from "react-test-renderer";
 

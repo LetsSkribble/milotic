@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Signal from "../src/icons/Signal";
+import { Signal } from "../src";
 
 import renderer from "react-test-renderer";
 

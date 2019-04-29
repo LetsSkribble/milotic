@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Bug from "../src/icons/Bug";
+import { Bug } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ZoomOut from "../src/icons/ZoomOut";
+import { ZoomOut } from "../src";
 
 import renderer from "react-test-renderer";
 

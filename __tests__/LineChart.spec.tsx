@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import LineChart from "../src/icons/LineChart";
+import { LineChart } from "../src";
 
 import renderer from "react-test-renderer";
 

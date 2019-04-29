@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Redo from "../src/icons/Redo";
+import { Redo } from "../src";
 
 import renderer from "react-test-renderer";
 

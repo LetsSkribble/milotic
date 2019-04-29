@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Dolar from "../src/icons/Dolar";
+import { Dolar } from "../src";
 
 import renderer from "react-test-renderer";
 

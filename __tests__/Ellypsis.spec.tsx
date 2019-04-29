@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Ellypsis from "../src/icons/Ellypsis";
+import { Ellypsis } from "../src";
 
 import renderer from "react-test-renderer";
 

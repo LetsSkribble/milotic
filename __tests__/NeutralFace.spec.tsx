@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import NeutralFace from "../src/icons/NeutralFace";
+import { NeutralFace } from "../src";
 
 import renderer from "react-test-renderer";
 

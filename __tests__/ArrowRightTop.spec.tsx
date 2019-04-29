@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ArrowRightTop from "../src/icons/ArrowRightTop";
+import { ArrowRightTop } from "../src";
 
 import renderer from "react-test-renderer";
 

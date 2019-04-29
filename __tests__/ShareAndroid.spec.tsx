@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ShareAndroid from "../src/icons/ShareAndroid";
+import { ShareAndroid } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Mute from "../src/icons/Mute";
+import { Mute } from "../src";
 
 import renderer from "react-test-renderer";
 

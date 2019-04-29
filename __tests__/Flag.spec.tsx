@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Flag from "../src/icons/Flag";
+import { Flag } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Bookmark from "../src/icons/Bookmark";
+import { Bookmark } from "../src";
 
 import renderer from "react-test-renderer";
 

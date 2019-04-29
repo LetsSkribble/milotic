@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Info from "../src/icons/Info";
+import { Info } from "../src";
 
 import renderer from "react-test-renderer";
 

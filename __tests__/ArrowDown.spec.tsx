@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ArrowDown from "../src/icons/ArrowDown";
+import { ArrowDown } from "../src";
 
 import renderer from "react-test-renderer";
 

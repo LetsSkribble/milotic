@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Error from "../src/icons/Error";
+import { Error } from "../src";
 
 import renderer from "react-test-renderer";
 

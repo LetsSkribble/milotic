@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Drop from "../src/icons/Drop";
+import { Drop } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ThumbDown from "../src/icons/ThumbDown";
+import { ThumbDown } from "../src";
 
 import renderer from "react-test-renderer";
 

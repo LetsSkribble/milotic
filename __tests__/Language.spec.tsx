@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Language from "../src/icons/Language";
+import { Language } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Power from "../src/icons/Power";
+import { Power } from "../src";
 
 import renderer from "react-test-renderer";
 

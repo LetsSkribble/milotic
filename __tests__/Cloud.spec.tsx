@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Cloud from "../src/icons/Cloud";
+import { Cloud } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ContactBook from "../src/icons/ContactBook";
+import { ContactBook } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import TrendingDown from "../src/icons/TrendingDown";
+import { TrendingDown } from "../src";
 
 import renderer from "react-test-renderer";
 

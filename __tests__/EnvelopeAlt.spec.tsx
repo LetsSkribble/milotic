@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import EnvelopeAlt from "../src/icons/EnvelopeAlt";
+import { EnvelopeAlt } from "../src";
 
 import renderer from "react-test-renderer";
 

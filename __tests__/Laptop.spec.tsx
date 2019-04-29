@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Laptop from "../src/icons/Laptop";
+import { Laptop } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Book from "../src/icons/Book";
+import { Book } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Support from "../src/icons/Support";
+import { Support } from "../src";
 
 import renderer from "react-test-renderer";
 

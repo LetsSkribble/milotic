@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Hamburger from "../src/icons/Hamburger";
+import { Hamburger } from "../src";
 
 import renderer from "react-test-renderer";
 

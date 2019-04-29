@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ZoomIn from "../src/icons/ZoomIn";
+import { ZoomIn } from "../src";
 
 import renderer from "react-test-renderer";
 

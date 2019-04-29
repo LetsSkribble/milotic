@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ChatAlt from "../src/icons/ChatAlt";
+import { ChatAlt } from "../src";
 
 import renderer from "react-test-renderer";
 

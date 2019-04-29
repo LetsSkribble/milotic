@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Feed from "../src/icons/Feed";
+import { Feed } from "../src";
 
 import renderer from "react-test-renderer";
 

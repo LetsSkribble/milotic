@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Sorting from "../src/icons/Sorting";
+import { Sorting } from "../src";
 
 import renderer from "react-test-renderer";
 

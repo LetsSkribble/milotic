@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Folder from "../src/icons/Folder";
+import { Folder } from "../src";
 
 import renderer from "react-test-renderer";
 

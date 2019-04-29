@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Shuffle from "../src/icons/Shuffle";
+import { Shuffle } from "../src";
 
 import renderer from "react-test-renderer";
 

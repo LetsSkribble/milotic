@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Music from "../src/icons/Music";
+import { Music } from "../src";
 
 import renderer from "react-test-renderer";
 

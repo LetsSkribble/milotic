@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Notebook from "../src/icons/Notebook";
+import { Notebook } from "../src";
 
 import renderer from "react-test-renderer";
 

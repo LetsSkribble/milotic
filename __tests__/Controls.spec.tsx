@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Controls from "../src/icons/Controls";
+import { Controls } from "../src";
 
 import renderer from "react-test-renderer";
 

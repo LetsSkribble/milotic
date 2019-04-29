@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Bin from "../src/icons/Bin";
+import { Bin } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Cancel from "../src/icons/Cancel";
+import { Cancel } from "../src";
 
 import renderer from "react-test-renderer";
 

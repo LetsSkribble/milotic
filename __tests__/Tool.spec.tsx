@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Tool from "../src/icons/Tool";
+import { Tool } from "../src";
 
 import renderer from "react-test-renderer";
 

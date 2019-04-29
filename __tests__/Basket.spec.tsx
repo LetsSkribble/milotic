@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Basket from "../src/icons/Basket";
+import { Basket } from "../src";
 
 import renderer from "react-test-renderer";
 

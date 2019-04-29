@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Bolt from "../src/icons/Bolt";
+import { Bolt } from "../src";
 
 import renderer from "react-test-renderer";
 

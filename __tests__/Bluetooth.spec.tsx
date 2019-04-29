@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Bluetooth from "../src/icons/Bluetooth";
+import { Bluetooth } from "../src";
 
 import renderer from "react-test-renderer";
 

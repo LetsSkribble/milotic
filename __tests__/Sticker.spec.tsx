@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Sticker from "../src/icons/Sticker";
+import { Sticker } from "../src";
 
 import renderer from "react-test-renderer";
 

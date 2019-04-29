@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Return from "../src/icons/Return";
+import { Return } from "../src";
 
 import renderer from "react-test-renderer";
 

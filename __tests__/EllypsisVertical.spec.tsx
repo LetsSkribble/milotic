@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import EllypsisVertical from "../src/icons/EllypsisVertical";
+import { EllypsisVertical } from "../src";
 
 import renderer from "react-test-renderer";
 

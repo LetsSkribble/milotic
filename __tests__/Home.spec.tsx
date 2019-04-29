@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Home from "../src/icons/Home";
+import { Home } from "../src";
 
 import renderer from "react-test-renderer";
 

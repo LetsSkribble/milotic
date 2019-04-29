@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Cursor from "../src/icons/Cursor";
+import { Cursor } from "../src";
 
 import renderer from "react-test-renderer";
 

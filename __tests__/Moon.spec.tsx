@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Moon from "../src/icons/Moon";
+import { Moon } from "../src";
 
 import renderer from "react-test-renderer";
 

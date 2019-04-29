@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Lock from "../src/icons/Lock";
+import { Lock } from "../src";
 
 import renderer from "react-test-renderer";
 

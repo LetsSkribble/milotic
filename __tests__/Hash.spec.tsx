@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Hash from "../src/icons/Hash";
+import { Hash } from "../src";
 
 import renderer from "react-test-renderer";
 

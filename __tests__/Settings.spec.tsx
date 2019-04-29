@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Settings from "../src/icons/Settings";
+import { Settings } from "../src";
 
 import renderer from "react-test-renderer";
 

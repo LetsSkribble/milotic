@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Watch from "../src/icons/Watch";
+import { Watch } from "../src";
 
 import renderer from "react-test-renderer";
 

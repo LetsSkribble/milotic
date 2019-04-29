@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Filter from "../src/icons/Filter";
+import { Filter } from "../src";
 
 import renderer from "react-test-renderer";
 

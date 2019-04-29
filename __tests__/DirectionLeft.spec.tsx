@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import DirectionLeft from "../src/icons/DirectionLeft";
+import { DirectionLeft } from "../src";
 
 import renderer from "react-test-renderer";
 

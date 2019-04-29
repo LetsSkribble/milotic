@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Chart from "../src/icons/Chart";
+import { Chart } from "../src";
 
 import renderer from "react-test-renderer";
 

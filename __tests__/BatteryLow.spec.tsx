@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import BatteryLow from "../src/icons/BatteryLow";
+import { BatteryLow } from "../src";
 
 import renderer from "react-test-renderer";
 

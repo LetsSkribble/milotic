@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Crop from "../src/icons/Crop";
+import { Crop } from "../src";
 
 import renderer from "react-test-renderer";
 

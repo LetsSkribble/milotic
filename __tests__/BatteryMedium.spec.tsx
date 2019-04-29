@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import BatteryMedium from "../src/icons/BatteryMedium";
+import { BatteryMedium } from "../src";
 
 import renderer from "react-test-renderer";
 

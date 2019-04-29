@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Anchor from "../src/icons/Anchor";
+import { Anchor } from "../src";
 
 import renderer from "react-test-renderer";
 

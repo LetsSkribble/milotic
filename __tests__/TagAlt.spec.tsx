@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import TagAlt from "../src/icons/TagAlt";
+import { TagAlt } from "../src";
 
 import renderer from "react-test-renderer";
 

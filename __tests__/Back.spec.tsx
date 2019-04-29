@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Back from "../src/icons/Back";
+import { Back } from "../src";
 
 import renderer from "react-test-renderer";
 

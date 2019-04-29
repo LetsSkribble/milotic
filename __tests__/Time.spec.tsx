@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Time from "../src/icons/Time";
+import { Time } from "../src";
 
 import renderer from "react-test-renderer";
 

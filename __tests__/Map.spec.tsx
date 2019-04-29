@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Map from "../src/icons/Map";
+import { Map } from "../src";
 
 import renderer from "react-test-renderer";
 

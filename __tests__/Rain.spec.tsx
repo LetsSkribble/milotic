@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Rain from "../src/icons/Rain";
+import { Rain } from "../src";
 
 import renderer from "react-test-renderer";
 

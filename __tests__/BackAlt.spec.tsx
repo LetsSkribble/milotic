@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import BackAlt from "../src/icons/BackAlt";
+import { BackAlt } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Play from "../src/icons/Play";
+import { Play } from "../src";
 
 import renderer from "react-test-renderer";
 

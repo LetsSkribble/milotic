@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Video from "../src/icons/Video";
+import { Video } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Shield from "../src/icons/Shield";
+import { Shield } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Aperture from "../src/icons/Aperture";
+import { Aperture } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Iphone from "../src/icons/Iphone";
+import { Iphone } from "../src";
 
 import renderer from "react-test-renderer";
 

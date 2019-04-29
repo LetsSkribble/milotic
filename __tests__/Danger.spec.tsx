@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Danger from "../src/icons/Danger";
+import { Danger } from "../src";
 
 import renderer from "react-test-renderer";
 

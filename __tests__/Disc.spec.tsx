@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Disc from "../src/icons/Disc";
+import { Disc } from "../src";
 
 import renderer from "react-test-renderer";
 

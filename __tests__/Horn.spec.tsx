@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Horn from "../src/icons/Horn";
+import { Horn } from "../src";
 
 import renderer from "react-test-renderer";
 

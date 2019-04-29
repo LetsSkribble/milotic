@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Voicemail from "../src/icons/Voicemail";
+import { Voicemail } from "../src";
 
 import renderer from "react-test-renderer";
 

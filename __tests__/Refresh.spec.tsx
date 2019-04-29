@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Refresh from "../src/icons/Refresh";
+import { Refresh } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import GridSmall from "../src/icons/GridSmall";
+import { GridSmall } from "../src";
 
 import renderer from "react-test-renderer";
 

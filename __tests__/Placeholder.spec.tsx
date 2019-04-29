@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Placeholder from "../src/icons/Placeholder";
+import { Placeholder } from "../src";
 
 import renderer from "react-test-renderer";
 

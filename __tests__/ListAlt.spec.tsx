@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ListAlt from "../src/icons/ListAlt";
+import { ListAlt } from "../src";
 
 import renderer from "react-test-renderer";
 

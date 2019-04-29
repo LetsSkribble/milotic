@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Inbox from "../src/icons/Inbox";
+import { Inbox } from "../src";
 
 import renderer from "react-test-renderer";
 

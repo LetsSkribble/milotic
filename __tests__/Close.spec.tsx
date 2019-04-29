@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Close from "../src/icons/Close";
+import { Close } from "../src";
 
 import renderer from "react-test-renderer";
 

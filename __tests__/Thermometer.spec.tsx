@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Thermometer from "../src/icons/Thermometer";
+import { Thermometer } from "../src";
 
 import renderer from "react-test-renderer";
 

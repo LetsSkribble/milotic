@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Pause from "../src/icons/Pause";
+import { Pause } from "../src";
 
 import renderer from "react-test-renderer";
 

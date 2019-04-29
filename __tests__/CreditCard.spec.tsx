@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import CreditCard from "../src/icons/CreditCard";
+import { CreditCard } from "../src";
 
 import renderer from "react-test-renderer";
 

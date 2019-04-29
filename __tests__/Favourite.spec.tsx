@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Favourite from "../src/icons/Favourite";
+import { Favourite } from "../src";
 
 import renderer from "react-test-renderer";
 

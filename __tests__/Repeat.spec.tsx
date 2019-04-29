@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Repeat from "../src/icons/Repeat";
+import { Repeat } from "../src";
 
 import renderer from "react-test-renderer";
 

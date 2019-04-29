@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Maximise from "../src/icons/Maximise";
+import { Maximise } from "../src";
 
 import renderer from "react-test-renderer";
 

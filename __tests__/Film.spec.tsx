@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Film from "../src/icons/Film";
+import { Film } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Tag from "../src/icons/Tag";
+import { Tag } from "../src";
 
 import renderer from "react-test-renderer";
 

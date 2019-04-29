@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Copy from "../src/icons/Copy";
+import { Copy } from "../src";
 
 import renderer from "react-test-renderer";
 

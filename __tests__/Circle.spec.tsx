@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Circle from "../src/icons/Circle";
+import { Circle } from "../src";
 
 import renderer from "react-test-renderer";
 

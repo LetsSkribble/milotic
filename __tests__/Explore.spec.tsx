@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Explore from "../src/icons/Explore";
+import { Explore } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import BatteryAlt from "../src/icons/BatteryAlt";
+import { BatteryAlt } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import AlignCenter from "../src/icons/AlignCenter";
+import { AlignCenter } from "../src";
 
 import renderer from "react-test-renderer";
 

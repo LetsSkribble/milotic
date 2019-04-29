@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import TurnRight from "../src/icons/TurnRight";
+import { TurnRight } from "../src";
 
 import renderer from "react-test-renderer";
 

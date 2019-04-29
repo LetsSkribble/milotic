@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Envelope from "../src/icons/Envelope";
+import { Envelope } from "../src";
 
 import renderer from "react-test-renderer";
 

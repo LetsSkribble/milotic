@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Stop from "../src/icons/Stop";
+import { Stop } from "../src";
 
 import renderer from "react-test-renderer";
 

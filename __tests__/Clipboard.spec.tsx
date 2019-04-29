@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Clipboard from "../src/icons/Clipboard";
+import { Clipboard } from "../src";
 
 import renderer from "react-test-renderer";
 

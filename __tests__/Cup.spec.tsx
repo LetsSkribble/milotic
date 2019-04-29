@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Cup from "../src/icons/Cup";
+import { Cup } from "../src";
 
 import renderer from "react-test-renderer";
 

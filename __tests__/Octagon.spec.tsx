@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Octagon from "../src/icons/Octagon";
+import { Octagon } from "../src";
 
 import renderer from "react-test-renderer";
 

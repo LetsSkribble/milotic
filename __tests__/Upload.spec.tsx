@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Upload from "../src/icons/Upload";
+import { Upload } from "../src";
 
 import renderer from "react-test-renderer";
 

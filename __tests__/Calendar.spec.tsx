@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Calendar from "../src/icons/Calendar";
+import { Calendar } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import ChevronDown from "../src/icons/ChevronDown";
+import { ChevronDown } from "../src";
 
 import renderer from "react-test-renderer";
 

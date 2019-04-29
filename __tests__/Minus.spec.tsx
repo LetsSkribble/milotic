@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Minus from "../src/icons/Minus";
+import { Minus } from "../src";
 
 import renderer from "react-test-renderer";
 

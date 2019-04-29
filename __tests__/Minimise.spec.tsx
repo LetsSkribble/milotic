@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Minimise from "../src/icons/Minimise";
+import { Minimise } from "../src";
 
 import renderer from "react-test-renderer";
 

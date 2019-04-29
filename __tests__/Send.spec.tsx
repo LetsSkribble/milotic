@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Send from "../src/icons/Send";
+import { Send } from "../src";
 
 import renderer from "react-test-renderer";
 

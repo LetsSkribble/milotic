@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import NotAllowed from "../src/icons/NotAllowed";
+import { NotAllowed } from "../src";
 
 import renderer from "react-test-renderer";
 

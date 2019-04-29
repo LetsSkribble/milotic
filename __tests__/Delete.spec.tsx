@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Delete from "../src/icons/Delete";
+import { Delete } from "../src";
 
 import renderer from "react-test-renderer";
 

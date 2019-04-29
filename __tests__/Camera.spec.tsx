@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Camera from "../src/icons/Camera";
+import { Camera } from "../src";
 
 import renderer from "react-test-renderer";
 

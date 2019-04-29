@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Paperclip from "../src/icons/Paperclip";
+import { Paperclip } from "../src";
 
 import renderer from "react-test-renderer";
 

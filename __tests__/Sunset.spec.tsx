@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Sunset from "../src/icons/Sunset";
+import { Sunset } from "../src";
 
 import renderer from "react-test-renderer";
 

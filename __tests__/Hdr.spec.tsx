@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Hdr from "../src/icons/Hdr";
+import { Hdr } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Justify from "../src/icons/Justify";
+import { Justify } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import CircleArrowLeft from "../src/icons/CircleArrowLeft";
+import { CircleArrowLeft } from "../src";
 
 import renderer from "react-test-renderer";
 

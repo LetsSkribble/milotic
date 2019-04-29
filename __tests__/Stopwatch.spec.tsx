@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Stopwatch from "../src/icons/Stopwatch";
+import { Stopwatch } from "../src";
 
 import renderer from "react-test-renderer";
 

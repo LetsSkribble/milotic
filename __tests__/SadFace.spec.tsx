@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import SadFace from "../src/icons/SadFace";
+import { SadFace } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Dashboard from "../src/icons/Dashboard";
+import { Dashboard } from "../src";
 
 import renderer from "react-test-renderer";
 

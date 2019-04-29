@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import CircleOk from "../src/icons/CircleOk";
+import { CircleOk } from "../src";
 
 import renderer from "react-test-renderer";
 

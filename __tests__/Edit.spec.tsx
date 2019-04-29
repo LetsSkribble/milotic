@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Edit from "../src/icons/Edit";
+import { Edit } from "../src";
 
 import renderer from "react-test-renderer";
 

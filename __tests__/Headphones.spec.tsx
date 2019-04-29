@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Headphones from "../src/icons/Headphones";
+import { Headphones } from "../src";
 
 import renderer from "react-test-renderer";
 

@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import BackLeft from "../src/icons/BackLeft";
+import { BackLeft } from "../src";
 
 import renderer from "react-test-renderer";
 

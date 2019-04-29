@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Activity from "../src/icons/Activity";
+import { Activity } from "../src";
 
 import renderer from "react-test-renderer";
 

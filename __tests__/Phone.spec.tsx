@@ -1,6 +1,6 @@
 import "react-native";
 import React from "react";
-import Phone from "../src/icons/Phone";
+import { Phone } from "../src";
 
 import renderer from "react-test-renderer";
 
