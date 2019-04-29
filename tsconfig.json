@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "outDir": "dist/",
+    "typeRoots": ["types", "node_modules/@types"]
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "storybook/storyLoader.js",
+    "dist"
+  ]
+}

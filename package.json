@@ -1,0 +1,75 @@
+{
+  "name": "@skribble/milotic",
+  "version": "0.0.0-development",
+  "description": "An Icon Library for React Native",
+  "main": "dist/index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "test": "jest --config jest.config.js --no-cache",
+    "build": "rollup -c && npm run build:types",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:watch": "rollup -c --watch",
+    "semantic-release": "semantic-release",
+    "codecov": "codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skribble-in/milotic.git"
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "icons",
+    "skribble.in",
+    "skribble",
+    "icon library"
+  ],
+  "author": "Viraj Trivedi <inf3cti0n95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skribble-in/milotic/issues"
+  },
+  "homepage": "https://github.com/skribble-in/milotic#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@types/jest": "^24.0.12",
+    "@types/react": "^16.8.14",
+    "@types/react-native": "^0.57.50",
+    "@types/react-test-renderer": "^16.8.1",
+    "codecov": "^3.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^2.1.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.10.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-native": "^0.59.5",
+    "react-native-svg": "^9.4.0",
+    "react-test-renderer": "^16.8.6",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-includepaths": "^0.2.3",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-typescript": "^1.0.1",
+    "semantic-release": "^15.13.3",
+    "ts-jest": "^24.0.2",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "src/icons"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
