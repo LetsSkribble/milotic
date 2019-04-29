@@ -21,15 +21,12 @@ jobs:
   include:
     - stage: release
       node_js: lts/*
+      script: skip
       deploy:
         provider: script
         skip_cleanup: true
-        before_script:
-          - yarn add react react-native react-native-svg
-          - yarn
-          - yarn global add codecov semantic-release typescript
         script:
           - yarn build
-          - yarn semantic-release
+          - npx semantic-release
       after_success:
         - yarn codecov
