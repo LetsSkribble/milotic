@@ -5,7 +5,7 @@ node_js:
   - 8
 
 before_install:
-  - travis_retry yarn add --peer react react-native react-native-svg
+  - travis_retry yarn add react react-native react-native-svg
 
 install:
   - travis_retry yarn
@@ -24,6 +24,8 @@ jobs:
       script:
         - yarn test --coverage
         - yarn build
+        - yarn remove react react-native react-native-svg
+        - yarn add --peer react react-native react-native-svg
       after_success:
         - yarn codecov
       deploy:
