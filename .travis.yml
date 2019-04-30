@@ -21,10 +21,11 @@ jobs:
   include:
     - stage: release
       node_js: lts/*
-      install:
-        - yarn
       script:
+        - yarn test --coverage
         - yarn build
+        - yarn remove react react-native react-native-svg
+        - yarn add --peer react react-native react-native-svg
       after_success:
         - yarn codecov
       deploy:

@@ -12,7 +12,9 @@
     "outDir": "dist/",
     "typeRoots": ["types", "node_modules/@types"]
   },
+  "include": ["src/"],
   "exclude": [
+    "__test__",
     "node_modules",
     "babel.config.js",
     "storybook/storyLoader.js",
